@@ -11,7 +11,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
 
 # ضع ID القناة هنا
-WELCOME_CHANNEL_ID = 1523325683890389082  # استبدله بـ ID قناة الترحيب
+WELCOME_CHANNEL_ID = 1523805667465625631  # استبدله بـ ID قناة الترحيب
 
 @bot.event
 async def on_ready():
